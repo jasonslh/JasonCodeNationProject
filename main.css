@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+body {
+    background-image: url("nintendos-world.gif");
+    
+}
+h1{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px 200px 20px;
+    font-size: 70px;
+    color: lawngreen;
+    background-color: rgb(28, 21, 78);
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h2{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 30px 100px 30px;
+    font-size: 40px;
+    color: orangered;
+    background-color: rgb(28, 21, 78);
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+.myname{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 50px 400px 50px;
+    font-size: 50px;
+    color: orangered;
+    background-color: rgb(28, 21, 78);
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+#aboutme{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 20px;
+    font-size: 30px;
+    color: aquamarine;
+    background-color: rgb(28, 21, 78);
+    font-family: 'Tomorrow', sans-serif;
+}
+
+h3{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 5px;
+    font-size: 25px;
+    color: lawngreen;
+    background-color: rgb(28, 21, 78);
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+}
+p{
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 20px;
+    font-size: 20px;
+    color: lawngreen;
+    background-color: rgb(28, 21, 78);
+    font-family: 'Tomorrow', sans-serif;
+}
+
+
+.navbarItem {
+    color: white;
+    background-color: rgb(28, 21, 78);
+    padding: 5px;
+    margin: 0px;
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Tomorrow', sans-serif;
+}
+/* * {
+    box-sizing: border-box;
+}
+.box {
+    color:white;
+    font-size: 50px;
+    font-family: 'Tomorrow', sans-serif;
+    text-align: center;
+    padding:15px;
+}
+
+.NavBarHome { background:#eccc68;}
+.NavBarUnit1 { background:#ff6348;}
+.NavBarUnit2 { background:#ff7f50;}
+
+.container {
+    display: flex;
+    justify-content: center;
+}*/
