@@ -9,7 +9,7 @@ h1{
     margin: 20px 200px 20px;
     font-size: 70px;
     color: lawngreen;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -20,7 +20,7 @@ h2{
     margin: 30px 100px 30px;
     font-size: 40px;
     color: orangered;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -31,7 +31,7 @@ h2{
     margin: 50px 400px 50px;
     font-size: 50px;
     color: orangered;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -42,8 +42,9 @@ h2{
     margin: 20px;
     font-size: 30px;
     color: aquamarine;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     font-family: 'Tomorrow', sans-serif;
+    text-align: center;
 }
 
 h3{
@@ -52,7 +53,7 @@ h3{
     margin: 5px;
     font-size: 25px;
     color: lawngreen;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -60,21 +61,72 @@ p{
     box-sizing: border-box;
     padding: 30px;
     margin: 20px;
-    font-size: 20px;
+    font-size: 25px;
     color: lawngreen;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     font-family: 'Tomorrow', sans-serif;
+    text-align: center;
 }
 
 
 .navbarItem {
     color: white;
-    background-color: rgb(28, 21, 78);
+    background-color: rgba(19, 14, 54, 0.9);
     padding: 5px;
     margin: 0px;
     text-align: left;
     font-size: 25px;
     font-family: 'Tomorrow', sans-serif;
+    text-align: center;
+}
+
+.jasonsworkfifty {
+    width: 35%;
+}
+.threedsmaxfifty {
+    width: 20%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.codenationfifty {
+    width: 50%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.coatlogotwenty {
+    width: 20%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.csstwenty{
+    width: 20%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.vsctwenty{
+    width: 20%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.trelloforty {
+    width: 40%;
+    background-color: rgba(19, 14, 54, 0.9);
+}
+.teamworkforty {
+    width: 40%;
+}
+.ccodesixty {
+    width: 30%;
+}
+.javascriptthirty {
+    width: 30%;
+}
+.gdprlogothirty {
+    width: 30%;
+}
+.happyunhappyforty {
+    width: 40%;
+}
+.improvementthirty {
+    width: 30%;
+}
+.copyrightthirty {
+    width: 30%;
 }
 /* * {
     box-sizing: border-box;
