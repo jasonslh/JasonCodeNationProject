@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 body {
     background-image: url("nintendos-world.gif");
-    
 }
+.NavBarContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.navbarItem {
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(5, 5, 50, 0.9);
+    padding: 5px;
+    margin: 10x;
+    font-size: 30px;
+    font-family: 'Tomorrow', sans-serif;
+    text-align: center;
+}
+
 h1{
     box-sizing: border-box;
     padding: 10px;
     margin: 20px 200px 20px;
     font-size: 70px;
     color: lawngreen;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -20,7 +36,7 @@ h2{
     margin: 30px 100px 30px;
     font-size: 40px;
     color: orangered;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -31,7 +47,7 @@ h2{
     margin: 50px 400px 50px;
     font-size: 50px;
     color: orangered;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -42,7 +58,7 @@ h2{
     margin: 20px;
     font-size: 30px;
     color: aquamarine;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
     font-family: 'Tomorrow', sans-serif;
     text-align: center;
 }
@@ -53,7 +69,7 @@ h3{
     margin: 5px;
     font-size: 25px;
     color: lawngreen;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
     text-align: center;
     font-family: 'Tomorrow', sans-serif;
 }
@@ -63,49 +79,85 @@ p{
     margin: 20px;
     font-size: 25px;
     color: lawngreen;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
+    /*rgba(19, 14, 54, 0.9);*/
     font-family: 'Tomorrow', sans-serif;
     text-align: center;
 }
 
-
-.navbarItem {
-    color: white;
-    background-color: rgba(19, 14, 54, 0.9);
-    padding: 5px;
-    margin: 0px;
-    text-align: left;
-    font-size: 25px;
-    font-family: 'Tomorrow', sans-serif;
-    text-align: center;
+.jasonsworkcontainer {
+    display: flex;
+    justify-content: center;
 }
-
+.PageOneContainerOne{
+    display: flex;
+    justify-content: center;
+}
+.IndexContainer {
+    display: flex;
+    justify-content: center;
+}
+.IndexCondeNationContainer {
+    display: flex;
+    justify-content: center;
+}
+.PageOneContainerTwo{
+    display: flex;
+    justify-content: center;
+}
+.PageOneContainerTrello {
+    display: flex;
+    justify-content: center;
+}
+.PageOneContainerTeamwork {
+    display: flex;
+    justify-content: center;
+}
+.PageOneContainerGDPR {
+    display: flex;
+    justify-content: center;
+}
+.HappyUnhappyContainer {
+    display: flex;
+    justify-content: center;
+}
+.ImprovementContainer {
+    display: flex;
+    justify-content: center;
+}
+.CopyrightContainer {
+    display: flex;
+    justify-content: center;
+}
 .jasonsworkfifty {
-    width: 35%;
+    width: 50%;
 }
 .threedsmaxfifty {
     width: 20%;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
 }
 .codenationfifty {
     width: 50%;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
 }
 .coatlogotwenty {
     width: 20%;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
 }
-.csstwenty{
-    width: 20%;
-    background-color: rgba(19, 14, 54, 0.9);
+.htmllogo {
+    width: 20%
 }
-.vsctwenty{
+.csstwenty {
     width: 20%;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
+}
+.vsctwenty {
+    width: 20%;
+    background-color: rgba(5, 5, 50, 0.9);
 }
 .trelloforty {
     width: 40%;
-    background-color: rgba(19, 14, 54, 0.9);
+    background-color: rgba(5, 5, 50, 0.9);
 }
 .teamworkforty {
     width: 40%;
@@ -128,22 +180,3 @@ p{
 .copyrightthirty {
     width: 30%;
 }
-/* * {
-    box-sizing: border-box;
-}
-.box {
-    color:white;
-    font-size: 50px;
-    font-family: 'Tomorrow', sans-serif;
-    text-align: center;
-    padding:15px;
-}
-
-.NavBarHome { background:#eccc68;}
-.NavBarUnit1 { background:#ff6348;}
-.NavBarUnit2 { background:#ff7f50;}
-
-.container {
-    display: flex;
-    justify-content: center;
-}*/
